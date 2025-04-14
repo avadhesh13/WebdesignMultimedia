@@ -1867,3 +1867,15 @@ responsive
     margin-bottom: 20px;
   }
 }
+@media  (max-width: 360px){
+.logo > img {
+  width: 73%;
+}
+
+}
+@media  (max-width: 480px){
+  .logo > img {
+    width: 73%;
+  }
+  
+  }
