@@ -488,38 +488,58 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-5 align-self-center">
-          <form id="contact" action="https://formspree.io/f/mldjzwal" method="POST" onsubmit="setTimeout(() => this.reset(), 100);">
-            <div class="row">
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="text" name="name" id="name" placeholder="Name" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="text" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="email" name="email" id="email" placeholder="Your Email" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="url" name="website" id="website" placeholder="Your Website URL" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="main-button">Submit Request</button>
-                </fieldset>
-              </div>
-            </div>
-          </form>
-        </div>
-        
+       <div class="col-lg-5 align-self-center">
+  <form id="contact" action="https://formspree.io/f/mldjzwal" method="POST" onsubmit="setTimeout(() => this.reset(), 100);">
+    <div class="row">
+      <div class="col-lg-12">
+        <fieldset>
+          <input type="text" name="name" id="name" placeholder="Your Name" autocomplete="on" required>
+        </fieldset>
+      </div>
+      <div class="col-lg-12">
+        <fieldset>
+          <input type="text" name="surname" id="surname" placeholder="Your Surname" autocomplete="on" required>
+        </fieldset>
+      </div>
+      <div class="col-lg-12">
+        <fieldset>
+          <input type="email" name="email" id="email" placeholder="Your Email" required>
+        </fieldset>
+      </div>
+      <div class="col-lg-12">
+        <fieldset>
+          <input type="tel" name="phone" id="phone" placeholder="Your Phone Number" pattern="[0-9]{10}" required>
+        </fieldset>
+      </div>
+      <div class="col-lg-12">
+        <fieldset>
+          <input type="url" name="website" id="website" placeholder="Your Website URL" required>
+        </fieldset>
+      </div>
+      <div class="col-lg-12">
+        <fieldset>
+          <select name="budget" id="budget" required>
+            <option value="" disabled selected>Select Your Budget</option>
+            <option value="3000-5000">₹3000 - ₹5000</option>
+            <option value="5000-7000">₹5000 - ₹7000</option>
+            <option value="7000-10000">₹7000 - ₹10000</option>
+            <option value="10000-15000">₹10000 - ₹15000</option>
+          </select>
+        </fieldset>
+      </div>
+      <div class="col-lg-12">
+        <fieldset>
+          <textarea name="message" id="message" placeholder="Tell us about your digital marketing needs..." rows="4" required></textarea>
+        </fieldset>
+      </div>
+      <div class="col-lg-12">
+        <fieldset>
+          <button type="submit" id="form-submit" class="main-button">Submit Request</button>
+        </fieldset>
+      </div>
+    </div>
+  </form>
+</div>   
       </div>
     </div>
     <div class="contact-dec">
