@@ -254,6 +254,30 @@ body {
 header
 --------------------------------------------- 
 */
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  color: #333;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+form select:focus,
+form textarea:focus {
+  border-color: #009879; /* Your theme accent color */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 152, 121, 0.4);
+}
+
+/* Optional: Match button padding around textareas for consistent spacing */
+form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
 
 .background-header {
   background-color: #fff!important;
